@@ -5,16 +5,11 @@ ul.icons-grid li {
     padding: 2em 0 !important;
     width: 55% !important;
 }
-ul.icons-grid li:nth-child(2n + 3):before {
-    background: #fff;
-    display: block;
-    height: 2px;
-    margin-top: -3em;
-    position: absolute;
-    width: 100%;
-}
 ul.icons-grid {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ul.icons-grid li:nth-child(2n + 3):before {
+    content: none !important;
 }
